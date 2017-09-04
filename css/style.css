@@ -1,0 +1,142 @@
+/*!
+ * Custom Styles
+ *
+ */
+
+html, body { height: 100%;}
+
+body { background: #e6e8ec;}
+body, p {font-family: "Lato", sans-serif;}
+
+hr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #eee;
+}
+h1, h2, h3, h4, h5 { font-family: "Montserrat", sans-serif;}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
+#wrap > .container {
+  padding-top: 60px;
+}
+
+#services {min-height:490px;}
+#contact { min-height: 500px;}
+#push { height: 90px; }
+#footer {
+  background-color: #fff;
+  padding-top:10px;
+  height:140px;
+  border-top: 1px solid #ccc;
+}
+#footer img {margin-top: 25px;}
+span { border-left: 3px solid #b01f2d; padding-left: 6px; }
+.well span { border-left: 3px solid #ccc;}
+
+iframe { border: 2px solid #ccc; border-radius: 5px;}
+
+
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 979px) {
+	.navbar .btn-navbar {
+		margin-right: 20px;
+		background-image: none;
+		border-radius: 0;
+	}
+	.navbar .pull-right { float: left !important; }
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.container > hr {
+  margin: 60px 0;
+}
+
+/* Main marketing message and sign up button */
+/*.jumbotron {
+  margin: 80px 0;
+  text-align: center;
+}*/
+
+.jumbotron { margin:30px 0 80px; }
+.jumbotron h1 { font-size:60px; line-height:1em;}
+
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.marketing { margin: 60px 0; }
+.marketing p + h4 { margin-top: 28px; }
+
+.navbar .navbar-inner { padding: 10px 0; }
+.navbar .nav { padding-top:30px; }
+
+.navbar .nav > li > a {
+  color: #555555;
+  font-size:1em;
+  font-weight:bold;
+  margin-left: 20px;
+}
+
+.navbar .nav > li > a:hover {
+  color: #cc3333;
+  font-size:1em;
+  font-weight:bold;
+  padding-bottom: 45px;
+  border-bottom: 5px solid #cc3333 !important;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  background:none;
+  color: #cc3333;
+  box-shadow:none;
+}
+
+.navbar-inner { background: #fff !important; box-shadow: none!important; padding-bottom: 0 !important; height: 110px;}
+
+.well { background-color: #9a9a9a; color: #fefefe;}
+.well h2, .well h5 { color: #333;}
+.well h2 { margin-top: 0;}
+
+.btn-inverse {
+	background-color: #b01f2d;
+	border-radius: 0;
+	background-image: none !important;
+	border:none;
+	text-shadow:none;
+	font-size: 14px;
+}
+
+.brand img {
+  height: 78px;
+  width: auto;
+}
+
+#footer img {
+  height: 78px;
+  width: auto;
+}
